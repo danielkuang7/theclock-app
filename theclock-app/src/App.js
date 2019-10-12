@@ -5,7 +5,11 @@ class App extends Component {
 
   render(){
     return(
-      <div></div>
+      <div className="App">
+      <div className="clock-container">
+      <h1 className="clock"></h1>
+      </div>      
+      </div>
     )
   }
 }
