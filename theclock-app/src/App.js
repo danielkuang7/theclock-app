@@ -9,6 +9,12 @@ class App extends Component {
     }
   }
 
+  currentTime = () => {
+    this.setState(() => {
+      this.setState({time:new Date().toLocaleTimeString})
+    })
+  }
+
   render(){
     return(
       <div className="App">
