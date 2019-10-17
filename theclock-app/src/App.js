@@ -15,6 +15,12 @@ class App extends Component {
     })
   }
 
+  componentDidMount = () =>{
+    setInterval(() =>{
+      this.currentTime()
+    }, 1000)
+  }
+
   render(){
     return(
       <div className="App">
