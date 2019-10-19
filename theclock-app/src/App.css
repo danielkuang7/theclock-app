@@ -12,3 +12,8 @@ body{
   right: 0;
   bottom: 0;
 }
+
+.clock-container{
+  margin: auto;
+  border: 0.5em rgb(197, 154, 62) solid;
+}
