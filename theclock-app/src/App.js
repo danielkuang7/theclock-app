@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 class App extends Component {
   constructor(){
@@ -11,7 +12,7 @@ class App extends Component {
 
   currentTime = () => {
     this.setState(() => {
-      this.setState({time:new Date().toLocaleTimeString})
+      this.setState({time:new Date().toLocaleTimeString()})
     })
   }
 
@@ -25,7 +26,10 @@ class App extends Component {
     return(
       <div className="App">
       <div className="clock-container">
-      <h1 className="clock"></h1>
+      <h1 className="clock">
+      {this.state.time}
+      </h1>
+
       </div>      
       </div>
     )

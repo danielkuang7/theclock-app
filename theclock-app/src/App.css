@@ -17,3 +17,12 @@ body{
   margin: auto;
   border: 0.5em rgb(197, 154, 62) solid;
 }
+
+.clock{
+  color: rgb(10, 8, 107);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4em;
+  font-weight: 900;
+  margin: 0;
+  padding: 0.2em;
+}
