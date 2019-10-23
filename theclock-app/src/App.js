@@ -29,7 +29,6 @@ class App extends Component {
       <h1 className="clock">
       {this.state.time}
       </h1>
-
       </div>      
       </div>
     )
